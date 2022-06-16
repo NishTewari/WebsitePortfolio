@@ -1,0 +1,41 @@
+.App {
+    text-align: center;
+    background-color: rgb(255, 191, 191);
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    >div{
+        border: solid black 2px;
+        flex: 1;
+    }
+    .links{
+        background-color: teal;
+    }
+}
+
+.section{
+    width: 100%;
+    &#hero{}
+}
+
+.testBlock {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    .block{
+        background-color: rgb(251, 114, 137);
+        border-radius: 7px;
+        width: 100px;
+        height: 100px;
+        margin: 50px;
+    }
+}
